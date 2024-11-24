@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 public class hamiltonianCycle {
@@ -77,11 +76,11 @@ public class hamiltonianCycle {
     public static void main(String[] args) {
         // Example graph (adjacency matrix)
         int[][] graph = {
-                { 0, 1, 0, 1, 0 },
+                { 0, 1, 1, 0, 1 },
                 { 1, 0, 1, 1, 1 },
-                { 0, 1, 0, 0, 1 },
-                { 1, 1, 0, 0, 1 },
-                { 0, 1, 1, 1, 0 }
+                { 1, 1, 0, 1, 0 },
+                { 0, 1, 1, 0, 1 },
+                { 1, 1, 0, 1, 0 }
         };
 
         hamiltonianCycle hc = new hamiltonianCycle(graph);

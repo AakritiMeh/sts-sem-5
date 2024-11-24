@@ -50,10 +50,13 @@ public class RatMaze {
 
         if (result.size() == 0)
             System.out.println(-1);
-        else
-            for (String path : result)
-                System.out.print(path + " ");
-        System.out.println();
+        else {
+            for (String path : result) {
+                System.out.println(path);
+
+            }
+
+        }
     }
 }
 

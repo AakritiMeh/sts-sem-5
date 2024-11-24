@@ -2,8 +2,10 @@ import java.util.*;
 
 public class Permutations {
     public static void main(String[] args) {
-        String input = "ACA";
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
         distinctPermutations(input);
+        sc.close();
     }
 
     public static void distinctPermutations(String input) {
