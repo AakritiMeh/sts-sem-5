@@ -63,7 +63,6 @@ public class wanrsdroff {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of the chessboard (N):");
         N = scanner.nextInt();
-        // Function Call
         solveKT();
         scanner.close();
     }
